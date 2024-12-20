@@ -54,7 +54,7 @@ readonly LOCAL_LIB_DIR="$QTOX_APP_DIR"/local/lib
 readonly LDQT_BIN="/usr/lib/qt5/bin/linuxdeployqt"
 
 # update information to be embeded in AppImage
-readonly UPDATE_INFO="gh-releases-zsync|qTox|qTox|latest|qTox-*.x86_64.AppImage.zsync"
+readonly UPDATE_INFO="gh-releases-zsync|TokTok|qTox|latest|qTox-*.x86_64.AppImage.zsync"
 export GIT_VERSION=$(git -C "${QTOX_SRC_DIR}" rev-parse --short HEAD)
 
 echo $QTOX_APP_DIR
@@ -68,7 +68,7 @@ unset QTDIR; unset QT_PLUGIN_PATH; unset LD_LIBRARY_PATH;
 readonly QTOX_DESKTOP_FILE="$QTOX_APP_DIR"/usr/local/share/applications/*.desktop
 export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/lib/x86_64-linux-gnu/
 
-eval "$LDQT_BIN $QTOX_DESKTOP_FILE -bundle-non-qt-libs -extra-plugins=libsnore-qt5"
+eval "$LDQT_BIN $QTOX_DESKTOP_FILE -bundle-non-qt-libs"
 
 # Move the required files to the correct directory
 mv "$QTOX_APP_DIR"/usr/* "$QTOX_APP_DIR/"

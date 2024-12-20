@@ -173,6 +173,22 @@ jobs:
             bash <(curl -s https://codecov.io/bash) -f coverage.info || echo "Codecov did not collect coverage reports"
           fi
 
+  build-appimage:
+    name: Ubuntu LTS
+    runs-on: ubuntu-20.04
+    #needs: [update-nightly-tag]
+    strategy:
+      matrix:
+        features: [full]
+        build_type: [Release]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install docker-compose
+        run: sudo apt-get install -y docker-compose
+      - name: Run build
+        run: docker-compose run --rm ubuntu_lts ./appimage/build.sh --src-dir /qtox
+        #run: docker-compose run --rm ubuntu_lts ./.ci-scripts/build-qtox-linux.sh --build-type ${{ matrix.build_type }} --${{ matrix.features }}
+
   ################################################################################################
   # Build, test, and deploy jobs (PR and push)
   ################################################################################################
