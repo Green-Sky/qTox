@@ -1,10 +1,12 @@
-<a name="v1.18.5-rc.1"></a>
+<a name="v1.18.5"></a>
 
-## v1.18.5-rc.1 (2026-05-17)
+## v1.18.5 (2026-06-02)
 
 ### Release notes
 
-Another release with a focus on stability.
+Another release focused on bug fixes and stability.
+
+Keep it safe out there.
 
 #### Bug Fixes
 
