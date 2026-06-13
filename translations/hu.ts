@@ -1212,7 +1212,7 @@ so you can save the file on Windows.</source>
     </message>
     <message>
         <source>Show system tray icon</source>
-        <translation>Rendszertálca ikon megjelenítése</translation>
+        <translation>Rendszertálcaikon megjelenítése</translation>
     </message>
     <message>
         <source>Enable light tray icon.</source>
@@ -1270,7 +1270,7 @@ so you can save the file on Windows.</source>
     </message>
     <message>
         <source>Start qTox on operating system startup (current profile).</source>
-        <translation>qTox indítása az aktuális profillal az operációs rendszer indításakor.</translation>
+        <translation>qTox indítása a jelenlegi profillal az operációs rendszer indításakor.</translation>
     </message>
     <message>
         <source>Default directory to save files:</source>
@@ -1282,7 +1282,7 @@ so you can save the file on Windows.</source>
     </message>
     <message>
         <source>Spell checking</source>
-        <translation>Helyesírás</translation>
+        <translation>Helyesírás-ellenőrzés</translation>
     </message>
     <message>
         <source>Max autoaccept file size (0 to disable):</source>
@@ -2036,7 +2036,7 @@ Ha kéretlen partnerfelkéréseket kap, változtassa meg a NoSpam azonosítójá
     </message>
     <message>
         <source>Generate random NoSpam</source>
-        <translation>Véletlenszerű NoSpam generálása</translation>
+        <translation>Véletlenszerű NoSpam előállítása</translation>
     </message>
     <message>
         <source>Privacy</source>
@@ -2635,7 +2635,7 @@ Ez az azonosító tartalmazza a NoSpam kódot (kék színnel), valamint a ellen�
     <message>
         <source>Click and drag to select a region. Press %1 to hide/show qTox window, or %2 to cancel.</source>
         <comment>Help text shown when no region has been selected yet</comment>
-        <translation>Kattintson és húzza az egérrel a terület kijelöléséhez. Nyomja meg a %1-et a qTox ablak elrejtéséhez/megjelenítéséhez, vagy a %2-t a művelet törléséhez.</translation>
+        <translation>Kattintson és húzza az egérrel a terület kijelöléséhez. Nyomja meg a %1-et a qTox-ablak elrejtéséhez/megjelenítéséhez, vagy a %2-t a művelet törléséhez.</translation>
     </message>
     <message>
         <source>Space</source>
@@ -2650,7 +2650,7 @@ Ez az azonosító tartalmazza a NoSpam kódot (kék színnel), valamint a ellen�
     <message>
         <source>Press %1 to send a screenshot of the selection, %2 to hide/show qTox window, or %3 to cancel.</source>
         <comment>Help text shown when a region has been selected</comment>
-        <translation>Nyomja meg a %1-et a kijelölésről készült képernyőmentés elküldéséhez, a %2-t a qTox ablak elrejtéséhez/megjelenítéséhez, vagy a %3-t a művelet törléséhez.</translation>
+        <translation>Nyomja meg a %1-et a kijelölésről készült képernyőmentés elküldéséhez, a %2-t a qTox-ablak elrejtéséhez/megjelenítéséhez, vagy a %3-t a művelet törléséhez.</translation>
     </message>
     <message>
         <source>Enter</source>
@@ -3008,13 +3008,13 @@ Formázási karakterek elrejtése:
         <source>If enabled, every contact without an avatar will have a generated icon based on their Tox ID instead of the default picture. Requires restart to apply.</source>
         <comment>toolTip for show identicons</comment>
         <translatorcomment>Automated translation.</translatorcomment>
-        <translation>Ha engedélyezve van, minden profilkép nélküli kapcsolathoz az alapértelmezett kép helyett a Tox-azonosító alapján generált ikon jelenik meg. Újraindítás szükséges a alkalmazáshoz.</translation>
+        <translation>Ha engedélyezve van, minden profilkép nélküli kapcsolathoz az alapértelmezett kép helyett a Tox-azonosító alapján előállított ikon jelenik meg. Az alkalmazáshoz újraindítás szükséges.</translation>
     </message>
     <message>
         <source>Smiley pack:</source>
         <extracomment>Text on smiley pack label</extracomment>
         <translatorcomment>Automated translation.</translatorcomment>
-        <translation>Smiley csomag:</translation>
+        <translation>Hangulatjelcsomag:</translation>
     </message>
     <message>
         <source>If disabled, mute notification sounds when status is Busy (but still show a notification)</source>
@@ -3054,7 +3054,7 @@ Formázási karakterek elrejtése:
     <message>
         <source>Base style to use for the UI. Fusion is recommended as it works best with qTox theming.</source>
         <translatorcomment>Automated translation.</translatorcomment>
-        <translation>A felhasználói felülethez használható alapstílus. A Fusion használata ajánlott, mivel a legjobban a qTox témájával működik.</translation>
+        <translation>Felhasználói felülethez használható alapstílus. A Fusion ajánlott, mivel ez működik a legjobban a&#xa0;qTox&#xa0;témával.</translation>
     </message>
     <message>
         <source>UI color theme. Use this to select dark mode.</source>
