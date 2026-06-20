@@ -191,7 +191,7 @@ o que pode levar a problemas com as vídeo-chamadas.</translation>
     <message>
         <source>This version of qTox is being maintained by the TokTok team following the archiving of the original qTox project.</source>
         <translatorcomment>Automated translation.</translatorcomment>
-        <translation>Esta versão do qTox está a ser mantida pela equipa TokTok após o arquivamento do projeto qTox original.</translation>
+        <translation>Esta versão do qTox está sendo mantida pela equipe TokTok após o arquivamento do projeto qTox original.</translation>
     </message>
 </context>
 <context>
@@ -1934,7 +1934,7 @@ Pressione Shift+F1 para obter mais informações.</translation>
     <name>PasswordEdit</name>
     <message>
         <source>Caps-lock enabled</source>
-        <translation>TECLA DE MAIÚSCULAS ATIVADA</translation>
+        <translation>Tecla «Caps Lock» ativada</translation>
     </message>
 </context>
 <context>
@@ -1961,7 +1961,7 @@ Pressione Shift+F1 para obter mais informações.</translation>
     </message>
     <message>
         <source>Send typing notifications</source>
-        <translation>Enviar notificação de escrever</translation>
+        <translation>Enviar notificações de escrita</translation>
     </message>
     <message>
         <source>Keep chat history</source>
@@ -1978,7 +1978,7 @@ As outras pessoas não poderão adicioná-lo com a sua referência do Tox, mas p
     </message>
     <message>
         <source>NoSpam</source>
-        <translation>NoSpam</translation>
+        <translation>NãoSpam</translation>
     </message>
     <message>
         <source>NoSpam is a part of your ID that can be changed at will.
@@ -2895,7 +2895,7 @@ Ocultar caracteres de formatação:
     </message>
     <message>
         <source>Conferences only notify when mentioned</source>
-        <translation>Somente notificar quando for mencionado em conferências.</translation>
+        <translation>Apenas notificar das conversas em grupo quando mencionado</translation>
     </message>
     <message>
         <source>Play sound</source>
