@@ -26,3 +26,5 @@ jobs:
       path: /
     secrets:
       NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+    permissions:
+      contents: read
